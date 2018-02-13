@@ -1,3 +1,5 @@
+*.cache
+
 # Compiled class file
 *.class
 
@@ -56,6 +58,7 @@ cmake-build-release/
 
 # IntelliJ
 out/
+
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
