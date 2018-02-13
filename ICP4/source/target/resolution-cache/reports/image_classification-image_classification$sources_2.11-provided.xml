@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="provided"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20180208205149"/>
+		date="20180212210102"/>
 	<dependencies>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-jobclient">
 			<revision name="2.2.0" status="release" pubdate="20131007013723" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="50">
@@ -613,7 +613,7 @@
 		</module>
 		<module organisation="org.apache.commons" name="commons-lang3">
 			<revision name="3.0" status="release" pubdate="20110718223605" resolver="public" artresolver="public" homepage="http://commons.apache.org/lang/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="116">
-				<metadata-artifact status="successful" details="" size="17659" time="261" location="/home/jack/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.0.xml" searched="true" original-local-location="/home/jack/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0.pom"/>
+				<metadata-artifact status="successful" details="" size="17659" time="621" location="/home/jack/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.0.xml" searched="true" original-local-location="/home/jack/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0.pom"/>
 				<caller organisation="image_classification" name="image_classification$sources_2.11" conf="provided" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="commons-lang3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="385583" time="0" location="/home/jack/.ivy2/cache/org.apache.commons/commons-lang3/srcs/commons-lang3-3.0-sources.jar">
@@ -1067,7 +1067,7 @@
 		<module organisation="org.roaringbitmap" name="RoaringBitmap">
 			<revision name="0.5.11" status="release" pubdate="20151116183511" resolver="public" artresolver="public" homepage="https://github.com/lemire/RoaringBitmap" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="76">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="6370" time="194" location="/home/jack/.ivy2/cache/org.roaringbitmap/RoaringBitmap/ivy-0.5.11.xml" searched="true" original-local-location="/home/jack/.ivy2/cache/org.roaringbitmap/RoaringBitmap/ivy-0.5.11.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.pom"/>
+				<metadata-artifact status="successful" details="" size="6370" time="187" location="/home/jack/.ivy2/cache/org.roaringbitmap/RoaringBitmap/ivy-0.5.11.xml" searched="true" original-local-location="/home/jack/.ivy2/cache/org.roaringbitmap/RoaringBitmap/ivy-0.5.11.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.pom"/>
 				<caller organisation="image_classification" name="image_classification$sources_2.11" conf="provided" rev="0.5.11" rev-constraint-default="0.5.11" rev-constraint-dynamic="0.5.11" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="RoaringBitmap" type="jar" ext="jar" status="no" details="" size="201928" time="0" location="/home/jack/.ivy2/cache/org.roaringbitmap/RoaringBitmap/jars/RoaringBitmap-0.5.11.jar">

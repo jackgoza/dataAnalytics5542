@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20180208205137"/>
+		date="20180212210051"/>
 	<dependencies>
 		<module organisation="org.bytedeco" name="javacv">
 			<revision name="0.11" status="release" pubdate="20150404084331" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://bytedeco.org/javacv/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="152">
@@ -174,7 +174,7 @@
 			<revision name="2.2.7" status="release" pubdate="20130423120237" resolver="public" artresolver="public" homepage="http://jaxb.java.net/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="145">
 				<license name="CDDL 1.1" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
 				<license name="GPL2 w/ CPE" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
-				<metadata-artifact status="successful" details="" size="4710" time="406" location="/home/jack/.ivy2/cache/com.sun.xml.bind/jaxb-impl/ivy-2.2.7.xml" searched="true" original-local-location="/home/jack/.ivy2/cache/com.sun.xml.bind/jaxb-impl/ivy-2.2.7.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.7/jaxb-impl-2.2.7.pom"/>
+				<metadata-artifact status="successful" details="" size="4710" time="285" location="/home/jack/.ivy2/cache/com.sun.xml.bind/jaxb-impl/ivy-2.2.7.xml" searched="true" original-local-location="/home/jack/.ivy2/cache/com.sun.xml.bind/jaxb-impl/ivy-2.2.7.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.7/jaxb-impl-2.2.7.pom"/>
 				<caller organisation="com.sun.jersey" name="jersey-json" conf="compile, runtime" rev="2.2.3-1" rev-constraint-default="2.2.3-1" rev-constraint-dynamic="2.2.3-1" callerrev="1.9"/>
 				<caller organisation="org.jpmml" name="pmml-model" conf="compile, runtime" rev="2.2.7" rev-constraint-default="2.2.7" rev-constraint-dynamic="2.2.7" callerrev="1.1.15"/>
 				<artifacts>
@@ -195,7 +195,7 @@
 		</module>
 		<module organisation="com.sun.xml.fastinfoset" name="FastInfoset">
 			<revision name="1.2.12" status="release" pubdate="20110905045838" resolver="public" artresolver="public" homepage="http://fi.java.net" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="149">
-				<metadata-artifact status="successful" details="" size="1430" time="275" location="/home/jack/.ivy2/cache/com.sun.xml.fastinfoset/FastInfoset/ivy-1.2.12.xml" searched="true" original-local-location="/home/jack/.ivy2/cache/com.sun.xml.fastinfoset/FastInfoset/ivy-1.2.12.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.12/FastInfoset-1.2.12.pom"/>
+				<metadata-artifact status="successful" details="" size="1430" time="201" location="/home/jack/.ivy2/cache/com.sun.xml.fastinfoset/FastInfoset/ivy-1.2.12.xml" searched="true" original-local-location="/home/jack/.ivy2/cache/com.sun.xml.fastinfoset/FastInfoset/ivy-1.2.12.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.12/FastInfoset-1.2.12.pom"/>
 				<caller organisation="com.sun.xml.bind" name="jaxb-impl" conf="compile, runtime" rev="1.2.12" rev-constraint-default="1.2.12" rev-constraint-dynamic="1.2.12" callerrev="2.2.7"/>
 				<artifacts>
 					<artifact name="FastInfoset" type="jar" ext="jar" status="no" details="" size="293863" time="0" location="/home/jack/.ivy2/cache/com.sun.xml.fastinfoset/FastInfoset/jars/FastInfoset-1.2.12.jar">
@@ -219,7 +219,7 @@
 			<revision name="2.2.7" status="release" pubdate="20130423115441" resolver="public" artresolver="public" homepage="http://jaxb.java.net/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="146">
 				<license name="CDDL 1.1" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
 				<license name="GPL2 w/ CPE" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
-				<metadata-artifact status="successful" details="" size="4441" time="284" location="/home/jack/.ivy2/cache/com.sun.xml.bind/jaxb-core/ivy-2.2.7.xml" searched="true" original-local-location="/home/jack/.ivy2/cache/com.sun.xml.bind/jaxb-core/ivy-2.2.7.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/2.2.7/jaxb-core-2.2.7.pom"/>
+				<metadata-artifact status="successful" details="" size="4441" time="238" location="/home/jack/.ivy2/cache/com.sun.xml.bind/jaxb-core/ivy-2.2.7.xml" searched="true" original-local-location="/home/jack/.ivy2/cache/com.sun.xml.bind/jaxb-core/ivy-2.2.7.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/2.2.7/jaxb-core-2.2.7.pom"/>
 				<caller organisation="com.sun.xml.bind" name="jaxb-impl" conf="compile, runtime" rev="2.2.7" rev-constraint-default="2.2.7" rev-constraint-dynamic="2.2.7" callerrev="2.2.7"/>
 				<artifacts>
 					<artifact name="jaxb-core" type="jar" ext="jar" status="no" details="" size="221747" time="0" location="/home/jack/.ivy2/cache/com.sun.xml.bind/jaxb-core/jars/jaxb-core-2.2.7.jar">
@@ -243,7 +243,7 @@
 			<revision name="2.2.7" status="release" pubdate="20120524043721" resolver="public" artresolver="public" homepage="http://jaxb.java.net/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="147">
 				<license name="CDDL 1.1" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
 				<license name="GPL2 w/ CPE" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
-				<metadata-artifact status="successful" details="" size="8101" time="283" location="/home/jack/.ivy2/cache/javax.xml.bind/jaxb-api/ivy-2.2.7.xml" searched="true" original-local-location="/home/jack/.ivy2/cache/javax.xml.bind/jaxb-api/ivy-2.2.7.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.pom"/>
+				<metadata-artifact status="successful" details="" size="8101" time="250" location="/home/jack/.ivy2/cache/javax.xml.bind/jaxb-api/ivy-2.2.7.xml" searched="true" original-local-location="/home/jack/.ivy2/cache/javax.xml.bind/jaxb-api/ivy-2.2.7.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.pom"/>
 				<caller organisation="com.sun.xml.bind" name="jaxb-impl" conf="compile, runtime" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="2.2.3-1"/>
 				<caller organisation="com.sun.xml.bind" name="jaxb-core" conf="compile, runtime" rev="2.2.7" rev-constraint-default="2.2.7" rev-constraint-dynamic="2.2.7" callerrev="2.2.7"/>
 				<artifacts>
@@ -843,7 +843,7 @@
 		</module>
 		<module organisation="org.apache.commons" name="commons-lang3">
 			<revision name="3.0" status="release" pubdate="20110718223605" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="http://commons.apache.org/lang/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
-				<metadata-artifact status="successful" details="" size="17659" time="314" location="/home/jack/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.0.xml" searched="true" original-local-location="/home/jack/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0.pom"/>
+				<metadata-artifact status="successful" details="" size="17659" time="356" location="/home/jack/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.0.xml" searched="true" original-local-location="/home/jack/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0.pom"/>
 				<evicted-by rev="3.3.2"/>
 				<caller organisation="org.apache.spark" name="spark-core_2.11" conf="compile" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.3.2" callerrev="1.6.0"/>
 				<caller organisation="org.tachyonproject" name="tachyon-underfs-hdfs" conf="compile, runtime" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="0.8.2"/>
@@ -1313,7 +1313,7 @@
 		<module organisation="org.roaringbitmap" name="RoaringBitmap">
 			<revision name="0.5.11" status="release" pubdate="20151116183511" resolver="public" artresolver="public" homepage="https://github.com/lemire/RoaringBitmap" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="85">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="6370" time="314" location="/home/jack/.ivy2/cache/org.roaringbitmap/RoaringBitmap/ivy-0.5.11.xml" searched="true" original-local-location="/home/jack/.ivy2/cache/org.roaringbitmap/RoaringBitmap/ivy-0.5.11.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.pom"/>
+				<metadata-artifact status="successful" details="" size="6370" time="239" location="/home/jack/.ivy2/cache/org.roaringbitmap/RoaringBitmap/ivy-0.5.11.xml" searched="true" original-local-location="/home/jack/.ivy2/cache/org.roaringbitmap/RoaringBitmap/ivy-0.5.11.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.pom"/>
 				<caller organisation="org.apache.spark" name="spark-core_2.11" conf="compile, runtime" rev="0.5.11" rev-constraint-default="0.5.11" rev-constraint-dynamic="0.5.11" callerrev="1.6.0"/>
 				<artifacts>
 					<artifact name="RoaringBitmap" type="bundle" ext="jar" status="no" details="" size="201928" time="0" location="/home/jack/.ivy2/cache/org.roaringbitmap/RoaringBitmap/bundles/RoaringBitmap-0.5.11.jar">

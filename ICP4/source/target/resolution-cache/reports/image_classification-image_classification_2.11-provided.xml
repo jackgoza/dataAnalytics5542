@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="provided"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20180208205137"/>
+		date="20180212210051"/>
 	<dependencies>
 		<module organisation="org.apache.spark" name="spark-core_2.11">
 			<revision name="1.6.0" status="release" pubdate="20151221213918" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
@@ -219,7 +219,7 @@
 		</module>
 		<module organisation="org.apache.commons" name="commons-lang3">
 			<revision name="3.0" status="release" pubdate="20110718223605" resolver="public" artresolver="public" homepage="http://commons.apache.org/lang/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="115">
-				<metadata-artifact status="successful" details="" size="17659" time="314" location="/home/jack/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.0.xml" searched="true" original-local-location="/home/jack/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0.pom"/>
+				<metadata-artifact status="successful" details="" size="17659" time="356" location="/home/jack/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.0.xml" searched="true" original-local-location="/home/jack/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0.pom"/>
 				<caller organisation="org.apache.spark" name="spark-core_2.11" conf="default, compile, runtime, master" rev="3.3.2" rev-constraint-default="3.3.2" rev-constraint-dynamic="3.3.2" callerrev="1.6.0"/>
 				<caller organisation="org.tachyonproject" name="tachyon-underfs-hdfs" conf="compile, runtime" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="0.8.2"/>
 				<caller organisation="org.tachyonproject" name="tachyon-client" conf="compile, runtime" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="0.8.2"/>
@@ -616,7 +616,7 @@
 		<module organisation="org.roaringbitmap" name="RoaringBitmap">
 			<revision name="0.5.11" status="release" pubdate="20151116183511" resolver="public" artresolver="public" homepage="https://github.com/lemire/RoaringBitmap" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="86">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="6370" time="314" location="/home/jack/.ivy2/cache/org.roaringbitmap/RoaringBitmap/ivy-0.5.11.xml" searched="true" original-local-location="/home/jack/.ivy2/cache/org.roaringbitmap/RoaringBitmap/ivy-0.5.11.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.pom"/>
+				<metadata-artifact status="successful" details="" size="6370" time="239" location="/home/jack/.ivy2/cache/org.roaringbitmap/RoaringBitmap/ivy-0.5.11.xml" searched="true" original-local-location="/home/jack/.ivy2/cache/org.roaringbitmap/RoaringBitmap/ivy-0.5.11.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.pom"/>
 				<caller organisation="org.apache.spark" name="spark-core_2.11" conf="default, compile, runtime, master" rev="0.5.11" rev-constraint-default="0.5.11" rev-constraint-dynamic="0.5.11" callerrev="1.6.0"/>
 				<artifacts>
 					<artifact name="RoaringBitmap" type="bundle" ext="jar" status="no" details="" size="201928" time="0" location="/home/jack/.ivy2/cache/org.roaringbitmap/RoaringBitmap/bundles/RoaringBitmap-0.5.11.jar">

@@ -161,6 +161,5 @@
     <orderEntry type="library" name="Maven: commons-cli:commons-cli:1.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: ch.qos.logback:logback-core:1.0.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: ch.qos.logback:logback-classic:1.0.0" level="project" />
-    <orderEntry type="library" name="scala-sdk-2.12.4 (2)" level="application" />
   </component>
 </module>

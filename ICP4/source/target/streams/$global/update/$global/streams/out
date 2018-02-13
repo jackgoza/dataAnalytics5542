@@ -7,7 +7,7 @@
 [debug] == resolving dependencies for image_classification#image_classification_2.11;1.0 [compile]
 [debug] == resolving dependencies image_classification#image_classification_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@430a8737
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78be39ae
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -222,7 +222,7 @@
 [debug] excluding dependency: org.codehaus.jackson#jackson-mapper-asl;1.8.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [info] Resolving org.apache.hadoop#hadoop-annotations;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ba474c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1454728b
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-annotations;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-annotations;2.2.0 in sbt-chain
 [debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.apache.hadoop#hadoop-annotations;2.2.0 [compile->compile(*)]
@@ -1795,7 +1795,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.pom
-[debug] 	[SUCCESSFUL ] org.roaringbitmap#RoaringBitmap;0.5.11!RoaringBitmap.pom(pom.original) (314ms)
+[debug] 	[SUCCESSFUL ] org.roaringbitmap#RoaringBitmap;0.5.11!RoaringBitmap.pom(pom.original) (239ms)
 [info] Resolving org.sonatype.oss#oss-parent;5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;5 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;5
@@ -3737,7 +3737,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.7/jaxb-impl-2.2.7.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.7/jaxb-impl-2.2.7.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.7/jaxb-impl-2.2.7.pom
-[debug] 	[SUCCESSFUL ] com.sun.xml.bind#jaxb-impl;2.2.7!jaxb-impl.pom(pom.original) (406ms)
+[debug] 	[SUCCESSFUL ] com.sun.xml.bind#jaxb-impl;2.2.7!jaxb-impl.pom(pom.original) (285ms)
 [info] Resolving net.java#jvnet-parent;1 ...
 [debug] sbt-chain: Checking cache for: dependency: net.java#jvnet-parent;1 {}
 [debug] sbt-chain: module revision found in cache: net.java#jvnet-parent;1
@@ -3766,7 +3766,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/2.2.7/jaxb-core-2.2.7.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/2.2.7/jaxb-core-2.2.7.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/2.2.7/jaxb-core-2.2.7.pom
-[debug] 	[SUCCESSFUL ] com.sun.xml.bind#jaxb-core;2.2.7!jaxb-core.pom(pom.original) (284ms)
+[debug] 	[SUCCESSFUL ] com.sun.xml.bind#jaxb-core;2.2.7!jaxb-core.pom(pom.original) (238ms)
 [info] Resolving net.java#jvnet-parent;1 ...
 [debug] sbt-chain: Checking cache for: dependency: net.java#jvnet-parent;1 {}
 [debug] sbt-chain: module revision found in cache: net.java#jvnet-parent;1
@@ -3795,7 +3795,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.pom
-[debug] 	[SUCCESSFUL ] javax.xml.bind#jaxb-api;2.2.7!jaxb-api.pom(pom.original) (283ms)
+[debug] 	[SUCCESSFUL ] javax.xml.bind#jaxb-api;2.2.7!jaxb-api.pom(pom.original) (250ms)
 [info] Resolving net.java#jvnet-parent;1 ...
 [debug] sbt-chain: Checking cache for: dependency: net.java#jvnet-parent;1 {}
 [debug] sbt-chain: module revision found in cache: net.java#jvnet-parent;1
@@ -3849,7 +3849,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.12/FastInfoset-1.2.12.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.12/FastInfoset-1.2.12.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.12/FastInfoset-1.2.12.pom
-[debug] 	[SUCCESSFUL ] com.sun.xml.fastinfoset#FastInfoset;1.2.12!FastInfoset.pom(pom.original) (275ms)
+[debug] 	[SUCCESSFUL ] com.sun.xml.fastinfoset#FastInfoset;1.2.12!FastInfoset.pom(pom.original) (201ms)
 [info] Resolving com.sun.xml.fastinfoset#fastinfoset-project;1.2.12 ...
 [debug] sbt-chain: Checking cache for: dependency: com.sun.xml.fastinfoset#fastinfoset-project;1.2.12 {}
 [info] Resolving com.sun.xml.fastinfoset#fastinfoset-project;1.2.12 ...
@@ -3867,7 +3867,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/sun/xml/fastinfoset/fastinfoset-project/1.2.12/fastinfoset-project-1.2.12.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/sun/xml/fastinfoset/fastinfoset-project/1.2.12/fastinfoset-project-1.2.12.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/sun/xml/fastinfoset/fastinfoset-project/1.2.12/fastinfoset-project-1.2.12.pom
-[debug] 	[SUCCESSFUL ] com.sun.xml.fastinfoset#fastinfoset-project;1.2.12!fastinfoset-project.pom(pom.original) (278ms)
+[debug] 	[SUCCESSFUL ] com.sun.xml.fastinfoset#fastinfoset-project;1.2.12!fastinfoset-project.pom(pom.original) (854ms)
 [info] Resolving net.java#jvnet-parent;1 ...
 [debug] sbt-chain: Checking cache for: dependency: net.java#jvnet-parent;1 {}
 [debug] sbt-chain: module revision found in cache: net.java#jvnet-parent;1
@@ -12424,7 +12424,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0.pom
-[debug] 	[SUCCESSFUL ] org.apache.commons#commons-lang3;3.0!commons-lang3.pom(pom.original) (314ms)
+[debug] 	[SUCCESSFUL ] org.apache.commons#commons-lang3;3.0!commons-lang3.pom(pom.original) (356ms)
 [info] Resolving org.apache.commons#commons-parent;21 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;21 {}
 [info] Resolving org.apache.commons#commons-parent;21 ...
@@ -12442,7 +12442,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/21/commons-parent-21.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/21/commons-parent-21.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-parent/21/commons-parent-21.pom
-[debug] 	[SUCCESSFUL ] org.apache.commons#commons-parent;21!commons-parent.pom(pom.original) (276ms)
+[debug] 	[SUCCESSFUL ] org.apache.commons#commons-parent;21!commons-parent.pom(pom.original) (441ms)
 [info] Resolving org.apache#apache;9 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache#apache;9 {}
 [debug] sbt-chain: module revision found in cache: org.apache#apache;9
@@ -23919,7 +23919,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] :: resolution report :: resolve 11279ms :: artifacts dl 74ms
+[debug] :: resolution report :: resolve 10870ms :: artifacts dl 66ms
 [debug] 	report for image_classification#image_classification_2.11;1.0 compile produced in /home/jack/dataAnalytics5542/ICP4/source/target/resolution-cache/reports/image_classification-image_classification_2.11-compile.xml
 [debug] 	report for image_classification#image_classification_2.11;1.0 runtime produced in /home/jack/dataAnalytics5542/ICP4/source/target/resolution-cache/reports/image_classification-image_classification_2.11-runtime.xml
 [debug] 	report for image_classification#image_classification_2.11;1.0 test produced in /home/jack/dataAnalytics5542/ICP4/source/target/resolution-cache/reports/image_classification-image_classification_2.11-test.xml
@@ -23933,5 +23933,5 @@
 [debug] 	report for image_classification#image_classification_2.11;1.0 docs produced in /home/jack/dataAnalytics5542/ICP4/source/target/resolution-cache/reports/image_classification-image_classification_2.11-docs.xml
 [debug] 	report for image_classification#image_classification_2.11;1.0 pom produced in /home/jack/dataAnalytics5542/ICP4/source/target/resolution-cache/reports/image_classification-image_classification_2.11-pom.xml
 [debug] 	report for image_classification#image_classification_2.11;1.0 scala-tool produced in /home/jack/dataAnalytics5542/ICP4/source/target/resolution-cache/reports/image_classification-image_classification_2.11-scala-tool.xml
-[debug] 	resolve done (11279ms resolve - 74ms download)
+[debug] 	resolve done (10870ms resolve - 66ms download)
 [info] Done updating.
