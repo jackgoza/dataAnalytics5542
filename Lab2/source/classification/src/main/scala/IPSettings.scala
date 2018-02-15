@@ -5,7 +5,6 @@ object IPSettings {
   val INPUT_DIR = PATH + "train/" + setId
   val TEST_INPUT_DIR = PATH + "test2/" + setId
   val FEATURES_PATH = PATH + "model/features/" + setId
-
   val KMEANS_PATH = PATH + "model/clusters/" + setId
   val KMEANS_CENTERS_PATH = PATH + "model/clusterCenters/" + setId
   val HISTOGRAM_PATH = PATH + "model/histograms/" + setId
