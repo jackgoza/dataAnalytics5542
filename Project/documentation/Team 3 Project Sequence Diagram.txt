@@ -1,0 +1,17 @@
+title Team 3 Project Sequence Diagram
+
+UserInterface->UserInterface:User queried for video input
+UserInterface->ScalaApi:Video sent to scala api
+UserInterface->TensorFlowApi:Video sent to tensorflow api
+TensorFlowApi->TensorFlowApi:Video compared to deep learning model
+ScalaApi->ScalaApi:Video parsed into frames
+TensorFlowApi->TensorFlowApi: Prediction made
+ScalaApi->ScalaApi:Frames limited to shots with hoop/backboard
+ScalaApi->ScalaApi:Frames compared to scoring models
+ScalaApi->ScalaApi:Reduction of model matches for score prediction
+ScalaApi->UserInterface:Score prediction returned
+TensorFlowApi->UserInterface: Score prediction returned
+UserInterface->UserInterface: Difference calculated and predictions averaged
+UserInterface->UserInterface:Predictions and error estimate displayed
+
+https://sequencediagram.org/
