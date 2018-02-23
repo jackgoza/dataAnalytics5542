@@ -6,15 +6,12 @@ import org.openimaj.image.feature.local.keypoints.Keypoint;
 
 import java.io.*;
 
-/**
- * Created by Naga on 20-09-2016.
- */
 public class ObjectFeatureExtraction {
     public static void main(String args[]) throws IOException {
         String inputFolder = "data/";
-        String inputImage = "beaver.jpg";
+        String inputImage = "Player.jpg";
         String outputFolder = "output/";
-        String[] IMAGE_CATEGORIES = {"Beaver", "Bird", "SeaLion"};
+        String[] IMAGE_CATEGORIES = {"Player", "Ball", "Backboard"};
 
         int input_class = 0;
         MBFImage mbfImage = ImageUtilities.readMBF(new File(inputFolder + inputImage));

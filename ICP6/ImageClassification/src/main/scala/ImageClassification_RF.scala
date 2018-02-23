@@ -5,20 +5,16 @@ import org.apache.spark.mllib.regression.LabeledPoint
 import org.apache.spark.mllib.tree.{DecisionTree, RandomForest}
 import org.apache.spark.{SparkConf, SparkContext}
 
-/**
-  * Created by Naga on 19-09-2016.
-  */
 object ImageClassification_RF {
   def main(args: Array[String]) {
-    val IMAGE_CATEGORIES = Array("Beaver", "Bird", "SeaLion")
-    System.setProperty("hadoop.home.dir", "C:\\Users\\Manikanta\\Documents\\UMKC Subjects\\PB\\hadoopforspark")
+    val IMAGE_CATEGORIES = Array("Player", "Ball", "Backboard")
     // Turn off Info Logger for Consolexxx
     Logger.getLogger("org").setLevel(Level.OFF);
     Logger.getLogger("akka").setLevel(Level.OFF);
     val sparkConf = new SparkConf().setAppName("ImageClassification").setMaster("local[*]")
     val sc = new SparkContext(sparkConf)
-    val train = sc.textFile("data/train")
-    val test = sc.textFile("data/test")
+    val train = sc.textFile("data/train/features.txt")
+    val test = sc.textFile("data/test/Ball.txt")
     val parsedData = train.map { line =>
       val parts = line.split(',')
       LabeledPoint(parts(0).toDouble, Vectors.dense(parts(1).split(' ').map(_.toDouble)))

@@ -29,9 +29,6 @@ import java.io.IOException;
 import java.util.List;
 //import org.openimaj.math.geometry.shape.Polygon;
 
-/**
- * Created by Naga on 16-09-2016.
- */
 public class ObjectDetection {
 
     public static void main(String args[]) throws IOException {
@@ -68,7 +65,7 @@ class ObjectMainDetection {
     }
 
     public void StartVideo() throws IOException {
-        Video<MBFImage> video = new XuggleVideo(new File("data/sample.mkv"));
+        Video<MBFImage> video = new XuggleVideo(new File("data/basketball.mkv"));
         int count1 = 0, count2 = 0, count3 = 0;
         String o1 = "output/features.txt";
         FileWriter fw = new FileWriter(o1);
@@ -201,9 +198,9 @@ class ObjectMainDetection {
         engine.getOptions().setDoubleInitialImage(true);
 
         try {
-            modelImage1 = ImageUtilities.readMBF(new File("data/1.jpg"));
-            modelImage2 = ImageUtilities.readMBF(new File("data/2.jpg"));
-            modelImage3 = ImageUtilities.readMBF(new File("data/3.jpg"));
+            modelImage1 = ImageUtilities.readMBF(new File("data/hoop.jpeg"));
+            modelImage2 = ImageUtilities.readMBF(new File("data/stephcurry.jpg"));
+            modelImage3 = ImageUtilities.readMBF(new File("data/threepointline.jpg"));
         } catch (IOException e) {
             e.printStackTrace();
         }
