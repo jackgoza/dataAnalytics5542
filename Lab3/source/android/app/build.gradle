@@ -4,14 +4,12 @@ buildscript {
   }
   dependencies {
     classpath(
-            'com.android.tools.build:gradle:2.3.3',
-        "com.neenbedankt.gradle.plugins:android-apt:1.8",
+            'com.android.tools.build:gradle:3.0.1',
     )
   }
 }
 
 apply plugin: "com.android.application"
-apply plugin: "com.neenbedankt.android-apt"
 
 repositories {
   jcenter()
@@ -19,7 +17,7 @@ repositories {
 
 android {
   compileSdkVersion 24
-  buildToolsVersion '25.0.0'
+  buildToolsVersion '26.0.2'
   defaultConfig {
     applicationId "com.clarifai.android.starter.api.v2"
     minSdkVersion 15
@@ -51,5 +49,5 @@ dependencies {
 
   // For getting views without clunky findViewById
   compile "com.jakewharton:butterknife:8.4.0"
-  apt "com.jakewharton:butterknife-compiler:8.4.0"
+  annotationProcessor "com.jakewharton:butterknife-compiler:8.4.0"
 }

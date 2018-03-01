@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.mikepenz:fastadapter-1.8.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fastadapter-1.8.0.aar/346367ade8f1e0b6877688af9a632a4f/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fastadapter-1.8.0.aar/346367ade8f1e0b6877688af9a632a4f/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikepenz/fastadapter/1.8.0/fcd1bac7db75517cdf7806fd55fef90cf06d2afa/fastadapter-1.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
