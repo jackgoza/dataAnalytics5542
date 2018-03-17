@@ -19,7 +19,6 @@ object IPApp {
 
   val IMAGE_CATEGORIES = List("set1", "set2", "set3")
   //val IMAGE_CATEGORIES = List("accordion", "airplanes", "anchor", "ant", "barrel", "bass", "beaver", "binocular", "bonsai")
-
   /**
     *
     * @param sc     : SparkContext
