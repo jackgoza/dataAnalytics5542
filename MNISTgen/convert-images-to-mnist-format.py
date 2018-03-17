@@ -24,7 +24,7 @@ for name in Names:
         print(filename)
         label = int(filename.split('/')[2])
 
-        Im = Image.open(filename)
+        Im = Image.open(filename).convert("L")
 
         pixel = Im.load()
 
@@ -32,7 +32,7 @@ for name in Names:
 
     for x in range(0, width):
         for y in range(0, height):
-            data_image.append(pixel[y, x][0])
+            data_image.append(pixel[y, x])
 
     data_label.append(label)  # labels start (one unsigned byte each)
 

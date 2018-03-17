@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalaclassification.iml" filepath="$PROJECT_DIR$/.idea/modules/scalaclassification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalaclassification-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalaclassification-build.iml" />
+    </modules>
+  </component>
+</project>
