@@ -24,7 +24,7 @@ public class ImageAnnotation {
                 .buildSync(); // or use .build() to get a Future<ClarifaiClient>
         client.getToken();
 
-        File file = new File("output/mainframes2");
+        File file = new File("../data/test/freethrows");
         File[] files = file.listFiles();
         for (int i = 0; i < files.length; i++) {
             ClarifaiResponse response = client.getDefaultModels().generalModel().predict()
@@ -42,7 +42,7 @@ public class ImageAnnotation {
             for (int j = 0; j < data.size(); j++) {
                 System.out.println(data.get(j).name() + " - " + data.get(j).value());
                 image.drawText(data.get(j).name(), (int) Math.floor(Math.random() * x), (int) Math.floor(Math.random() * y), HersheyFont.ASTROLOGY, 20, RGBColour.RED);
-                String name = "output/annotatedframes2/annotated" + i + ".jpg";
+                String name = "output/freethrows/annotated" + i + ".jpg";
                 File outputFile = new File(name);
                 try {
                     ImageUtilities.write(image, outputFile);
