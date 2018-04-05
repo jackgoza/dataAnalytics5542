@@ -1,0 +1,4 @@
+#Wed Jan 31 12:21:13 CST 2018
+base.0=C\:\\Users\\Megha Nagabhushan\\Documents\\BDAA-TA\\tensorflow-master\\tensorflow\\contrib\\lite\\java\\demo\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
